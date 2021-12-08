@@ -1,0 +1,4 @@
+jtype: ClothingSegmenter
+metas:
+  py_modules:
+    - executor.py
