@@ -1,1 +1,8 @@
-
+click
+gdown
+jina
+numpy
+opencv-python
+Pillow
+torch
+torchvision
