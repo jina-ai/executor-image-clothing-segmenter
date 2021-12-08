@@ -7,10 +7,11 @@ parts of the image that represent clothing or fashion items and filters out the 
 
 ## Examples
 
-![Sample 1](docs/assets/sample%231.jpg)
-![Output 2](docs/assets/output%231.jpg)
-![Sample 2](docs/assets/sample%232.jpg)
-![Output 2](docs/assets/output%232.jpg)
+<img src="docs/assets/sample%231.jpg" alt="sample 1" width="500"/>
+<img src="docs/assets/output%231.jpg" alt="output 1" width="500"/>
+<img src="docs/assets/sample%232.jpg" alt="sample 2" width="500"/>
+<img src="docs/assets/output%232.jpg" alt="output 2" width="500"/>
+
 
 ## References
 
