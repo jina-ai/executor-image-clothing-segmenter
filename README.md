@@ -1,5 +1,7 @@
 # ClothingSegmenter
 
+U2NET fashion image/clothing segmenter based on https://github.com/levindabhi/cloth-segmentation
+
 ## Overview
 
 The `ClothingSegmenter` executor can be used to perform segmentation on images of fashion products.

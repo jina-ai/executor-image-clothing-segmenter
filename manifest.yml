@@ -1,2 +1,5 @@
 manifest_version: 1
 name: ClothingSegmenter
+description: U2NET fashion image/clothing segmenter based on https://github.com/levindabhi/cloth-segmentation
+url: https://github.com/jina-ai/executor-image-clothing-segmenter
+keywords: [segmenter, image, fashion, clothing, PyTorch]
