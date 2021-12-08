@@ -1,16 +1,12 @@
 # ClothingSegmenter
 
-This project hosts an executor that can be used to perform segmentation on images of fashion products.
-The executor is based on a U2NET architecture pre-trained on iMaterialistic fashion 2019. The executor detects the
-parts of the image that represent clothing or fashion items and filters out the rest of the content.
+## Overview
 
-
-## Examples
-
-<img src="docs/assets/sample%231.jpg" alt="sample 1" width="500"/>
-<img src="docs/assets/output%231.jpg" alt="output 1" width="500"/>
-<img src="docs/assets/sample%232.jpg" alt="sample 2" width="500"/>
-<img src="docs/assets/output%232.jpg" alt="output 2" width="500"/>
+The `ClothingSegmenter` executor can be used to perform segmentation on images of fashion products.
+The executor is based on a U2NET architecture pre-trained on iMaterialistic fashion 2019. The
+parts of the image that represent clothing or fashion items are recognized, using the U2NET pixel-wise
+segmentation model and the rest of the image content is filtered out. Images that pass through
+the executor are resized to a fixed shape of `(500, 768)` to match the pre-training image size.
 
 
 ## References

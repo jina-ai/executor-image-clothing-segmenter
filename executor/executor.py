@@ -13,13 +13,7 @@ class ClothingSegmenter(Executor):
     An executor that can be used to perform segmentation on images of fashion products
     It is based on a U2NET architecture pre-trained on iMaterialistic fashion 2019
     The executor detects the parts of the images that represent clothing or fashion items and
-    filters out the rest of the image
-
-    References
-    ----------
-    u2net: https://arxiv.org/abs/2005.09007
-    dataset: https://www.kaggle.com/c/imaterialist-fashion-2019-FGVC6/data
-    repo: https://github.com/levindabhi/cloth-segmentation
+    filters out the rest of the image content.
     """
 
     SHAPE = (768, 500)
@@ -28,8 +22,7 @@ class ClothingSegmenter(Executor):
         """
         Initialization
 
-        :param model_path: The path to the pre-trained model, link:
-            https://drive.google.com/u/0/uc?id=1mhF3yqd7R-Uje092eypktNl-RoZNuiCJ&export=download
+        :param model_path: The path to the pre-trained U2NET model
         :param batch_size: The inference batch size
         """
         super().__init__(**kwargs)
